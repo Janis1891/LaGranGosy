@@ -16,6 +16,7 @@ h2 {
   font-weight: 700;
   font-size: 18px;
   color: #a2d4f4;
+  margin-bottom: auto;
 }
 
 h3 {
@@ -23,6 +24,7 @@ h3 {
   font-weight: 600;
   font-size: 16px;
   color: #a2d4f4;
+  margin-bottom: auto;
 }
 
 h4 {
@@ -67,7 +69,7 @@ nav {
 .nav-link:hover {
   color: #a2d4f4;
 }
-.logogosy {
+.logo {
   width: 100px;
 }
 
@@ -96,7 +98,7 @@ main {
   margin-top: 110px;
   margin-bottom: 110px;
 }
-.dibujogosy{
+.drawing{
   width: 200px;
 }
 table {
@@ -113,18 +115,77 @@ table {
   color: black;
   background-color: #a2d4f4;
 }
-.redes {
+.media {
   width: 35px;
   background-color: #faf19b;
   border-radius: 7px;
 }
-.redes:hover {
+.media:hover {
   background-color: #a2d4f4;
   border-radius: 7px;
 }
 
 
 /*Sección Quién es Gosy*/
-.circulo {
+.me {
   width: 300px;
+}
+
+
+/*Sección Habilidades y Software*/
+.paragraph {
+  text-align: center;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+
+/*Sección Portafolio*/
+.portfolio {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.large {
+  display: block;
+  width: 245px;
+  height: 330px;
+  margin-bottom: 25px;
+}
+
+.short {
+  display: block;
+  width: 245px;
+  height: 200px;
+  margin-bottom: 25px;
+}
+
+.overlay {
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  background-color: #182e4dff;
+  color: #a2d4f4;
+  width: 245px;
+  height: 40px;
+  transition: .5s ease;
+  opacity: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #a2d4f4;
+  padding: 7px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.portfolio:hover .overlay {
+  opacity: 1;
 }
