@@ -216,3 +216,13 @@ footer {
   position: relative;
   padding-top: 15px;
 }
+
+.bottom {
+  text-decoration: none;
+  color: white;
+}
+
+.bottom:hover {
+  text-decoration: none;
+  color: #a2d4f4;
+}
