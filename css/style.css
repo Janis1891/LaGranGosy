@@ -21,8 +21,9 @@ h2 {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: italic;
   color: #a2d4f4;
   margin-bottom: auto;
 }
@@ -199,6 +200,46 @@ table {
 
 
 /*Sección Contáctate Conmigo*/
+.contact-img {
+  width: 530px;
+  height: 352px;
+}
+.message {
+  color: black;
+  background-color: #faf19b;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  margin: none;
+  padding: 7px 15px;
+}
+.message:hover {
+  color: black;
+  background-color: #a2d4f4;
+  border: none;
+}
+
+form {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: italic;
+  color: #a2d4f4;
+}
+
+.form-control {
+  background-color: black;
+  color: grey;
+  border-color: #a2d4f4;
+  font-size: 12px;
+  padding: none;
+}
+
+
+/*Footer*/
 footer {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
