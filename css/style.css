@@ -133,9 +133,11 @@ main {
 }
 
 table {
-  border: 0;
-  margin: auto;
-  padding: inherit;
+  margin-bottom: 0px;
+}
+
+.table {
+  width: 350px;
 }
 
 .btn {
