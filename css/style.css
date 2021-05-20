@@ -55,37 +55,59 @@ hr {
   border-bottom: 0;
 }
 
-
 /*Header--Navegación*/
 header {
   position: fixed;
   z-index: 100;
   width: 100%;
 }
+
 nav {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   background-color: #182e4dff;
 }
+
+ul {
+  margin-left: 30px;
+}
+
 .nav-item {
   padding: 15px 30px;
 }
+
 .nav-link {
   color: white;
 }
+
 .nav-link:hover {
   color: #a2d4f4;
 }
+
 .logo {
   width: 100px;
-  position: relative;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
+.navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #182e4dff;
+  border: 3px solid #a2d4f4;
+  border-radius: .25rem;
+}
+
+.navbar-toggler:hover {
+  background-color: #a2d4f4;
+  border: 3px solid #a2d4f4;
+}
 
 /*Base del Main*/
 main {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/01-lagrangosy/fondo.jpg");
-   /* Set a specific height */
+  /* Set a specific height */
   height: 20%;
   /* Position and center the image to scale nicely on all screens */
   background-position: top;
@@ -94,24 +116,28 @@ main {
   position: relative;
 }
 
-
 /*Sección La Gran Gosy*/
 .row {
   text-align: center;
   margin-top: 0px;
-  margin-left: 120px;
-  margin-right: 120px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
-.col-lg-4 {
-  margin-top: 110px;
-  margin-bottom: 110px;
+
+.col {
+  text-align: center;
 }
-.drawing{
+
+.drawing {
   width: 200px;
 }
+
 table {
   border: 0;
+  margin: auto;
+  padding: inherit;
 }
+
 .btn {
   color: black;
   background-color: #faf19b;
@@ -119,38 +145,58 @@ table {
   font-weight: 700;
   font-size: 16px;
 }
+
 .btn:hover {
   color: black;
   background-color: #a2d4f4;
 }
+
 .media {
   width: 35px;
   background-color: #faf19b;
   border-radius: 7px;
 }
+
 .media:hover {
   background-color: #a2d4f4;
   border-radius: 7px;
 }
-
 
 /*Sección Quién es Gosy*/
 .me {
   width: 300px;
 }
 
-
 /*Sección Habilidades y Software*/
 .paragraph {
   text-align: center;
 }
-.circle {
+
+#circle {
   width: 100px;
   height: 100px;
   border-radius: 100%;
   text-align: center;
 }
 
+.circle1 {
+  border: 5px solid #2F726E;
+}
+.circle2 {
+  border: 5px solid #E72B2D;
+}
+.circle3 {
+  border: 5px solid #EDC9A0;
+}
+.circle4 {
+  border: 5px solid #ED6E20;
+}
+.circle5 {
+  border: 5px solid #0A65DF;
+}
+.circle6 {
+  border: 5px solid #C2197E;
+}
 
 /*Sección Portafolio*/
 .portfolio {
@@ -178,7 +224,8 @@ table {
   margin: 0;
   bottom: 0;
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black see-through */
   background-color: #182e4dff;
   color: #a2d4f4;
   width: 245px;
@@ -193,17 +240,18 @@ table {
   text-align: center;
 }
 
-
 .portfolio:hover .overlay {
   opacity: 1;
-}/* When you mouse over the container, fade in the overlay title */
+}
 
+/* When you mouse over the container, fade in the overlay title */
 
 /*Sección Contáctate Conmigo*/
 .contact-img {
   width: 530px;
   height: 352px;
 }
+
 .message {
   color: black;
   background-color: #faf19b;
@@ -215,6 +263,7 @@ table {
   margin: none;
   padding: 7px 15px;
 }
+
 .message:hover {
   color: black;
   background-color: #a2d4f4;
@@ -237,7 +286,6 @@ form {
   font-size: 12px;
   padding: none;
 }
-
 
 /*Footer*/
 footer {
